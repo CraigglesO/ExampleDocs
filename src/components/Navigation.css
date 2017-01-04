@@ -1,0 +1,62 @@
+
+.Navigation {
+  width: 234px;
+  height: 100%;
+  background: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.Navigation > :first-child {
+  margin: 1.25em 1em;
+}
+
+#intro {
+  margin-top: 1.25em;
+  margin-left: 1em;
+}
+
+#intro a {
+  color: #ddd;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+#intro a:hover {
+  color: white;
+}
+
+.Navigation ul li a {
+  color: #ccc;
+  border-radius: 0;
+}
+
+.Navigation a:hover {
+  color: white;
+}
+
+.Navigation a.active {
+  color: #43853d;
+  border-radius: 0;
+  border-bottom: 1px solid #43853d;
+  background: none;
+}
+
+.Navigation ul li {
+  padding-bottom: .5em;
+}
+
+.Navigation ul {
+  list-style: none;
+  margin-top: 1em;
+  margin-left: -10px;
+  background: #333;
+}
+
+.Navigation .line {
+  margin: 0 .5em;
+  background-color: #707070;
+}

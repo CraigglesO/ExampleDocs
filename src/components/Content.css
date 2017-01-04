@@ -1,0 +1,75 @@
+.Content {
+  margin-left: 234px;
+  padding: 0 2em;
+  -webkit-padding-start: 1.5em;
+}
+
+.Content h1, h2, h3, h4, h5 {
+  -webkit-margin-after: 0.5em;
+}
+
+.Content h1 {
+    margin-top: 0;
+    font-size: 2.441em;
+}
+
+.Content h2 {
+  font-size: 1.953em;
+}
+
+.Content h3 {
+  font-size: 1.563em;
+}
+
+.Content h4 {
+  font-size: 1.25em;
+}
+
+.Content h5 {
+  font-size: 1.05em;
+}
+
+.Content a:hover {
+  background-color: #43853d;
+  color: #fff;
+}
+
+span > .mark, span > .mark:visited {
+    font-size: 1em;
+    color: #707070;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+span > .mark:hover, span > .mark:focus, span > .mark:active {
+    color: #43853d;
+    background: none;
+}
+
+#toc {
+  margin-bottom: 1.5em;
+}
+
+#toc h2 {
+  margin-top: 0;
+  font-size: 1em;
+  line-height: 0;
+  margin: 1.5em 0;
+}
+
+.depreciated::after {
+  background-color: #d50027;
+  color: #fff;
+  content: "deprecated";
+  font-size: .8em;
+  position: relative;
+  top: -.18em;
+  left: .5em;
+  padding: 0 .3em .2em;
+  border-radius: 3px;
+}
+
+#apicontent {
+  padding-top: 1em;
+}

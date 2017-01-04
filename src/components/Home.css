@@ -1,0 +1,21 @@
+.Home {
+  margin-left: 234px;
+  padding: 0 2em;
+  -webkit-padding-start: 1.5em;
+}
+
+.Home .line {
+  width: calc(50% - 1em);
+  margin: 1em 1em .95em;
+  background-color: #ccc;
+}
+
+.Home #toc {
+  margin-bottom: 2.6em;
+}
+
+.Home ul li {
+    font-size: 1.2em;
+    margin-bottom: .666em;
+    list-style: disc;
+}
