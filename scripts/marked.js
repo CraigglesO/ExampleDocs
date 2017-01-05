@@ -882,7 +882,7 @@ Renderer.prototype.codespan = function(text) {
 };
 
 Renderer.prototype.br = function() {
-  return this.options.xhtml ? '<br/>' : '<br>';
+  return '<br/>';
 };
 
 Renderer.prototype.del = function(text) {

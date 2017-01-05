@@ -79,7 +79,7 @@ exports.runMD = function() {
           third = '</Link></span></li>';
         }
 
-        readMe[i] = first+second+third;
+        readMe[i] = first + second + third;
 
         headerLinkCounter++;
       }

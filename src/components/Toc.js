@@ -39,7 +39,7 @@ export default React.createClass({
 
         <ul>
           <li>
-            <a href="www.github.com">Github Repository</a>
+            <a href="https://github.com/CraigglesO/ExampleDocs">Github Repository</a>
           </li>
           <li>
             <a href="/api/mail">Mailing List</a>

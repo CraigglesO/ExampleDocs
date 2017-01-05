@@ -139,18 +139,13 @@ Stability Index
 </h2>
 <p>Throughout the documentation, you will see indications of a section&#39;s stability. The idea is to keep updated components that are unlikely to ever change at all. Others may be brand new and experimental, or known to be hazardous and in the process of being redesigned.</p>
 <p>The stability indices are as follows:</p>
-<Stability stability={0} content="This feature is known to be problematic, and changes areplanned.  Do not rely on it.  Use of the feature may cause warnings.  Backwards
-compatibility should not be expected.
-" />
+<Stability stability={0} content="This feature is known to be problematic, and changes are planned. Do not rely on it. Use of the feature may cause warnings. Backwards compatibility should not be expected." />
 <div className="api_metadata"><span> </span></div>
-<Stability stability={1} content="This feature is subject to change, and is gated by a command line flag.It may change or be removed in future versions.
-" />
+<Stability stability={1} content="This feature is subject to change, and is gated by a command line flag. It may change or be removed in future versions." />
 <div className="api_metadata"><span> </span></div>
-<Stability stability={2} content="The API has proven satisfactory. Compatibility with the npm ecosystemis a high priority, and will not be broken unless absolutely necessary.
-" />
+<Stability stability={2} content="The API has proven satisfactory. Compatibility with the npm ecosystem is a high priority, and will not be broken unless absolutely necessary." />
 <div className="api_metadata"><span> </span></div>
-<Stability stability={3} content="Only fixes related to security, performance, or bug fixes will be accepted.Please do not suggest API changes in this area; they will be refused.
-" />
+<Stability stability={3} content="Only fixes related to security, performance, or bug fixes will be accepted. Please do not suggest API changes in this area; they will be refused." />
 <div className="api_metadata"><span> </span></div>
 <h2 id="details">
 Details
@@ -183,6 +178,7 @@ Tree Representation
 │   ├── NavLink.js
 │   ├── Navigation.css
 │   ├── Navigation.js
+│   ├── Toc.js
 │   └── docs
 │       ├── Documentation.js
 │       ├── Synopsis.js
@@ -217,7 +213,7 @@ Cheat Sheet
 
 // Link
 - Inline Version:
-[Link](www.github.com)
+[Link](https://www.github.com)
 
 - Referenced:
 This is a [Link] inside paragraphs
