@@ -21,8 +21,8 @@ navigate to localhost:3000/api to see it in action!
 
 # Docs in action:
 
-![alt tag](https://github.com/CraigglesO/ExampleDocs/img/view1.png)
-![alt tag](https://github.com/CraigglesO/ExampleDocs/img/view2.png)
+![alt tag](https://github.com/CraigglesO/ExampleDocs/blob/master/img/view1.png)
+![alt tag](https://github.com/CraigglesO/ExampleDocs/blob/master/img/view2.png)
 
 
 # About This Documentation
