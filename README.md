@@ -1,5 +1,7 @@
 # ExampleDoc
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/CraigglesO/ExampleDocs.svg)](https://greenkeeper.io/)
+
 ### Write MD file docs and have them seemlessly merge into this boilerplate!
 
 This was built with lots of coffee and time... Feel free to star this project! ;)
